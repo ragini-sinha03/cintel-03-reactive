@@ -10,7 +10,7 @@ from shiny import reactive  # To create reactive functions
 penguins = load_penguins()
 
 # Set up the page options for the Shiny app
-ui.page_opts(title="Karto's Penguins Data", fillable=True)
+ui.page_opts(title="Penguins Data", fillable=True)
 
 # Create a sidebar for user interaction
 with ui.sidebar(position="right", bg="#f8f8f8", open="open"):
